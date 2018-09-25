@@ -71,9 +71,8 @@ p {
 
     .latest-blog {
       background-color: white;
-      padding: 10px;
+      padding: 20px;
       h3 {
-        padding-top: 20px;
         padding-bottom: 15px;
         margin: 0;
         margin-bottom: 15px;
@@ -115,12 +114,12 @@ p {
       width: 30%;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       .img-gallery{
-      margin-bottom:  30px;
+      margin-bottom: 30px;
       }
     }
 }
-
 
 footer {
   margin-top: 10px;
@@ -133,7 +132,7 @@ footer {
   border-bottom: 2px solid #7e5c52;
 
   .footer-menu {
-    width: 70%;
+    width: 72%;
     display: flex;
     list-style: none;
     margin: 0px;
@@ -147,6 +146,9 @@ footer {
       font-size: 11px;
       &:hover{
         color: white;
+      }
+      &:first-of-type{
+      margin-left: 30px;
       }
     }
   }

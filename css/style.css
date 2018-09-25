@@ -69,10 +69,9 @@ p {
 }
 .main-container .blog-testimonials .latest-blog {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 .main-container .blog-testimonials .latest-blog h3 {
-  padding-top: 20px;
   padding-bottom: 15px;
   margin: 0;
   margin-bottom: 15px;
@@ -112,6 +111,7 @@ p {
   width: 30%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .main-container .aside .img-gallery {
   margin-bottom: 30px;
@@ -128,7 +128,7 @@ footer {
   border-bottom: 2px solid #7e5c52;
 }
 footer .footer-menu {
-  width: 70%;
+  width: 72%;
   display: flex;
   list-style: none;
   margin: 0px;
@@ -142,6 +142,9 @@ footer .footer-menu .footer-button {
 }
 footer .footer-menu .footer-button:hover {
   color: white;
+}
+footer .footer-menu .footer-button:first-of-type {
+  margin-left: 30px;
 }
 footer .social {
   font-size: 20px;
